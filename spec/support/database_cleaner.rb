@@ -1,7 +1,7 @@
-Rspec.configure do |config|
+RSpec.configure do |config|
 
     config.before(:suite) do
-        databaseCleaner.clean_with(:truncation)
+        DatabaseCleaner.clean_with(:truncation)
     end
     
     config.before(:each) do 
