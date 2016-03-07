@@ -21,6 +21,16 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+#For authentication and user account
+gem 'devise', '~> 3.5', '>= 3.5.6'
+gem 'auto_html', '~> 2.0'
+gem 'acts_as_votable', '~> 0.10.0'
+gem 'faker', '~> 1.6', '>= 1.6.3'
+gem 'font-awesome-rails', '~> 4.5', '>= 4.5.0.1'
+gem 'bourbon', '~> 4.2', '>= 4.2.6'
+gem 'neat', '~> 1.7', '>= 1.7.4'
+gem 'refills', '~> 0.1.0'
+gem 'normalize-rails', '~> 3.0', '>= 3.0.3'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
@@ -36,6 +46,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
+  gem 'factory_girl_rails', '~> 4.6'
+  gem 'capybara', '~> 2.6', '>= 2.6.2'
+  gem 'database_cleaner', '~> 1.5', '>= 1.5.1'
+  gem 'shoulda-matchers', '~> 3.1', '>= 3.1.1'
+  gem 'faker', '~> 1.6', '>= 1.6.3'
 end
 
 group :development do
